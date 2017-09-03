@@ -1,0 +1,17 @@
+{
+  "title": "Inline Manual ESLint config",
+  "name": "@inlinemanual/eslint-config",
+  "version": "1.0.0",
+  "description": "Shareable ESLint config for Inline Manual projects.",
+  "author": "Riki Fridrich <riki@inlinemanual.com>",
+  "homepage": "https://github.com/InlineManual/eslint-config",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:InlineManual/eslint-config.git"
+  },
+  "peerDependencies": {
+    "eslint": ">= 3"
+  },
+  "main": "index.js",
+  "license": "UNLICENSED"
+}

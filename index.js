@@ -15,7 +15,7 @@ module.exports = {
     'func-call-spacing': ['warn', 'never'],
     'func-name-matching': ['warn', 'always'],
     'function-paren-newline': ['warn', 'multiline'],
-    'indent': ['warn', 2],
+    'indent': ['warn', 2, {'SwitchCase': 1}],
     'key-spacing': ['warn', {'beforeColon': false, 'afterColon': true}],
     'keyword-spacing': ['warn', {'before': true, 'after': true}],
     'linebreak-style': ['warn', 'unix'],
@@ -34,20 +34,19 @@ module.exports = {
     'no-new-object': 'warn',
     'no-tabs': 'warn',
     'no-trailing-spaces': 'warn',
-    'no-underscore-dangle': 'warn',
     'no-unneeded-ternary': 'warn',
     'no-unused-vars': [
       'warn',
-      {'vars': 'all', 'args': 'after-used', 'ignoreRestSiblings': false}
+      {'vars': 'all', 'args': 'after-used', 'ignoreRestSiblings': true}
     ],
     'no-whitespace-before-property': 'warn',
     'nonblock-statement-body-position': 'warn',
-    'object-curly-newline': ['warn', {'multiline': true}],
+    'object-curly-newline': ['warn', {'multiline': true, 'consistent': true}],
     'object-curly-spacing': ['warn', 'never'],
     'object-property-newline':
       ['warn', {'allowMultiplePropertiesPerLine': true}],
     'one-var': ['warn', 'never'],
-    'operator-linebreak': ['warn', 'before'],
+    'operator-linebreak': ['warn', 'before', {'overrides': {'=': 'after'}}],
     'padded-blocks': ['warn', {'classes': 'always'}],
     'quotes': ['warn', 'single', {'avoidEscape': true}],
     'require-jsdoc': [

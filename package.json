@@ -10,7 +10,7 @@
     "url": "git@github.com:InlineManual/eslint-config.git"
   },
   "peerDependencies": {
-    "eslint": ">= 3"
+    "eslint": ">= 4.6.0"
   },
   "main": "index.js",
   "license": "UNLICENSED"

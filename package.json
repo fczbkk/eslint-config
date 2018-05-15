@@ -1,7 +1,7 @@
 {
   "title": "Inline Manual ESLint config",
   "name": "@inlinemanual/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shareable ESLint config for Inline Manual projects.",
   "author": "Riki Fridrich <riki@inlinemanual.com>",
   "homepage": "https://github.com/InlineManual/eslint-config",

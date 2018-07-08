@@ -1,18 +1,18 @@
-# ESLint config for Inline Manual
+# Default ESLint config for personal projects of Riki Fridrich
 
 ## How to add to project
 
-Add module `@inlinemanual/eslint-config` as a dev dependency to your project:
+Add module `@fczbkk/eslint-config` as a dev dependency to your project:
 
 ```
-npm install @inlinemanual/eslint-config --save
+npm install @fczbkk/eslint-config --save
 ```
 
-Then [extend your ESLint config](https://eslint.org/docs/user-guide/configuring#extending-configuration-files) with `@inlinemanual`. For example, if you use `.eslintrc.json`, it could look like this:
+Then [extend your ESLint config](https://eslint.org/docs/user-guide/configuring#extending-configuration-files) with `@fczbkk`. For example, if you use `.eslintrc.json`, it could look like this:
 
 ```json
 {
-    "extends": "@inlinemanual"
+    "extends": "@fczbkk"
 }
 ```
 

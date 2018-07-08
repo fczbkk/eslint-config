@@ -1,17 +1,17 @@
 {
-  "title": "Inline Manual ESLint config",
-  "name": "@inlinemanual/eslint-config",
-  "version": "1.0.1",
-  "description": "Shareable ESLint config for Inline Manual projects.",
-  "author": "Riki Fridrich <riki@inlinemanual.com>",
-  "homepage": "https://github.com/InlineManual/eslint-config",
+  "title": "Fczbkk ESLint config",
+  "name": "@fczbkk/eslint-config",
+  "version": "1.0.0",
+  "description": "Default ESLint config for personal projects of Riki Fridrich.",
+  "author": "Riki Fridrich <riki@fczbkk.com>",
+  "homepage": "https://github.com/fczbkk/eslint-config",
   "repository": {
     "type": "git",
-    "url": "git@github.com:InlineManual/eslint-config.git"
+    "url": "git@github.com:fczbkk/eslint-config.git"
   },
   "peerDependencies": {
     "eslint": ">= 4.6.0"
   },
   "main": "index.js",
-  "license": "UNLICENSED"
+  "license": "MIT"
 }

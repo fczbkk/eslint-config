@@ -3,7 +3,7 @@
 module.exports = {
   'extends': ['eslint:recommended'],
   'rules': {
-    'array-bracket-newline': ['warn', "consistent"],
+    'array-bracket-newline': ['warn', 'consistent'],
     'array-bracket-spacing': ['warn', 'never'],
     'block-spacing': ['warn', 'never'],
     'brace-style': ['warn', '1tbs', {'allowSingleLine': true}],
@@ -19,7 +19,11 @@ module.exports = {
     'key-spacing': ['warn', {'beforeColon': false, 'afterColon': true}],
     'keyword-spacing': ['warn', {'before': true, 'after': true}],
     'linebreak-style': ['warn', 'unix'],
-    'max-len': ['warn', {'code': 80, 'ignoreComments': true}],
+    'max-len': ['warn', {
+      'code': 80,
+      'ignoreComments': true,
+      'ignoreTemplateLiterals': true,
+    }],
     'multiline-ternary': ['warn', 'always-multiline'],
     'new-parens': 'warn',
     'newline-per-chained-call': ['warn', {'ignoreChainWithDepth': 2}],
@@ -37,7 +41,7 @@ module.exports = {
     'no-unneeded-ternary': 'warn',
     'no-unused-vars': [
       'warn',
-      {'vars': 'all', 'args': 'after-used', 'ignoreRestSiblings': true}
+      {'vars': 'all', 'args': 'after-used', 'ignoreRestSiblings': true},
     ],
     'no-whitespace-before-property': 'warn',
     'nonblock-statement-body-position': 'warn',
@@ -55,9 +59,9 @@ module.exports = {
         'require': {
           'FunctionDeclaration': true,
           'MethodDefinition': true,
-          'ClassDeclaration': true
-        }
-      }
+          'ClassDeclaration': true,
+        },
+      },
     ],
     'semi': ['warn', 'always'],
     'semi-spacing': ['warn', {'before': false, 'after': true}],
@@ -83,6 +87,6 @@ module.exports = {
     'prefer-const': 'warn',
     'rest-spread-spacing': ['warn', 'never'],
     'template-curly-spacing': 'warn',
-    'yield-star-spacing': ['warn', 'before']
-  }
+    'yield-star-spacing': ['warn', 'before'],
+  },
 };
